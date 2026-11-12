@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="En kort guide för små hantverks- och byggfirmor som vill ta reda på varför offerter och anbud inte blev jobb, och välja vilka förfrågningar som är värda att räkna på.">
+  <title>Varför det inte blev jobb – Fackguiden</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --paper: #fffdf8;
+      --ink: #1c1916;
+      --muted: #5a544c;
+      --line: #d8d1c4;
+      --accent: #243f34;
+      --accent-hover: #1a2f27;
+      --soft: #e8efe9;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+    header, main, footer { width: min(42rem, calc(100% - 2rem)); margin-left: auto; margin-right: auto; }
+    header { padding: 2.25rem 0 1.25rem; }
+    .brand {
+      font-size: 0.8125rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.85rem;
+    }
+    h1 {
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+      font-size: clamp(1.85rem, 5vw, 2.45rem);
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+    }
+    .lead { font-size: 1.125rem; color: var(--muted); margin: 0; }
+    main { padding-bottom: 3rem; }
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.35rem 1.35rem 1.45rem;
+      margin: 0 0 1rem;
+    }
+    h2 {
+      font-family: Georgia, "Iowan Old Style", Palatino, serif;
+      font-size: 1.35rem;
+      line-height: 1.3;
+      margin: 0 0 0.7rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin: 0 0 0.45rem;
+    }
+    p { margin: 0 0 0.8rem; }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+    ul { margin: 0 0 0.8rem; padding-left: 1.2rem; }
+    li { margin: 0 0 0.4rem; }
+    .tiers {
+      display: grid;
+      gap: 0.85rem;
+    }
+    @media (min-width: 640px) {
+      .tiers { grid-template-columns: 1fr 1fr; align-items: stretch; }
+      section { padding: 1.6rem 1.7rem 1.7rem; }
+    }
+    .tier {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.25rem 1.2rem 1.35rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .tier.premium { background: var(--soft); border-color: #c5d4c9; }
+    .price {
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin: 0 0 0.15rem;
+    }
+    .price-note { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.9rem; }
+    .note { color: var(--muted); font-size: 0.95rem; }
+    a { color: var(--accent); }
+    a:hover, a:focus-visible { color: var(--accent-hover); }
+    .buy-box { text-align: left; }
+    .email {
+      font-weight: 600;
+      word-break: break-word;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.8rem 1.15rem;
+      border-radius: 8px;
+    }
+    .cta:hover, .cta:focus-visible { background: var(--accent-hover); }
+    .cta:focus-visible { outline: 3px solid #8fb89a; outline-offset: 3px; }
+    footer {
+      color: var(--muted);
+      font-size: 0.92rem;
+      padding: 0.5rem 0 2.5rem;
+    }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="brand">Fackguiden</p>
+    <h1>Varför det inte blev jobb</h1>
+    <p class="lead">En kort guide för små hantverks- och byggfirmor som lägger många offerter och ibland anbud, men får för få jobb.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Vad guiden löser</h2>
+      <p>Många vet inte varför en offert eller ett anbud inte blev jobb. Då är det lätt att gissa att det var priset, och ändra fel sak nästa gång. Andra lägger kvällar på att räkna på förfrågningar som aldrig var värda tiden: jämförelsepriser, kunder utan budget eller jobb utanför kärnan.</p>
+      <p>Guiden ger ett enkelt sätt att ta reda på varför det inte blev jobb, och att välja vilka förfrågningar som är värda att räkna på. Inga garantier, och inga löften om mer jobb.</p>
+    </section>
+
+    <div class="tiers">
+      <section class="tier" aria-labelledby="bas-rubrik">
+        <h2 id="bas-rubrik">Bas</h2>
+        <p class="price">295 kr</p>
+        <p class="price-note">inkl. eventuell moms</p>
+        <ul>
+          <li>Kort guide (Word och PDF, 13 sidor): vanliga orsaker till att offerter och anbud dör, färdiga formuleringar för att fråga kunden, offentliga anbud (tilldelningsbeslut, rätt till upplysningar, begära ut handlingar, med källor) och vad du ändrar nästa gång.</li>
+          <li>Go/no-go-checklista på en sida.</li>
+          <li>Mall för genomgång av förlorad offert eller anbud.</li>
+        </ul>
+      </section>
+
+      <section class="tier premium" aria-labelledby="premium-rubrik">
+        <h2 id="premium-rubrik">Premium</h2>
+        <p class="price">795 kr</p>
+        <p class="price-note">inkl. eventuell moms, innehåller basen</p>
+        <ul>
+          <li>Två ifyllda exempel: en privat badrumsoffert och ett mindre offentligt anbud. Exemplen är påhittade fall, inga verkliga personer eller företag.</li>
+          <li>Poängmall i Excel med egna kriterier, vikter, stoppfrågor och gränser, och rekommendation RÄKNA / FUNDERA / AVSTÅ.</li>
+          <li>Logg i Excel över förlorade offerter, med orsakskoder och sammanställning av vanligaste orsak.</li>
+        </ul>
+      </section>
+    </div>
+
+    <p class="note" style="margin: 0.2rem 0.2rem 1rem;">Guiden innehåller ingen offertmall och ingen ROT-kalkyl.</p>
+
+    <section class="buy-box" id="kop">
+      <h2>Så köper du</h2>
+      <p>Mejla <a class="email" href="mailto:emil.granberg.grok@gmail.com?subject=Varf%C3%B6r%20det%20inte%20blev%20jobb%2C%20bas%20eller%20premium&amp;body=Hej%2C%0A%0AJag%20vill%20k%C3%B6pa%20Varf%C3%B6r%20det%20inte%20blev%20jobb%2C%20bas%20eller%20premium.%0A">emil.granberg.grok@gmail.com</a> och skriv <strong>Varför det inte blev jobb, bas eller premium</strong>. Ange vilken nivå du vill ha. Du får en faktura från Avant webb. Guiden skickas när fakturan är betald.</p>
+      <p>Ingen betallänk i dag. Inga garantier.</p>
+      <a class="cta" href="mailto:emil.granberg.grok@gmail.com?subject=Varf%C3%B6r%20det%20inte%20blev%20jobb%2C%20bas%20eller%20premium&amp;body=Hej%2C%0A%0AJag%20vill%20k%C3%B6pa%20Varf%C3%B6r%20det%20inte%20blev%20jobb%2C%20bas%20eller%20premium.%0A">Mejla för att köpa</a>
+    </section>
+
+    <section>
+      <h2>Avsändare</h2>
+      <p>Jag hade egen snickerifirma i sju år. Guiden är skriven utifrån den erfarenheten.</p>
+      <p>Exemplen i premium är påhittade fall. Inga verkliga personer eller företag.</p>
+      <p>Materialet är ett praktiskt hjälpmedel och inte juridisk rådgivning. Det ger inga garantier och lovar inga resultat. Du ansvarar själv för dina offerter, anbud, avtal och beslut.</p>
+    </section>
+
+    <section>
+      <p>Vill du ha en extra genomgång av en enskild förlorad offert finns ett separat erbjudande om <a href="https://emilgranberg.github.io/granskning/">gratis granskning av en förlorad offert</a>. Det ingår inte i den här guiden och lovar inget resultat.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fackguiden · Avant webb</p>
+  </footer>
+</body>
+</html>
