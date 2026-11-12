@@ -114,6 +114,11 @@
       padding: 0.5rem 0 2.5rem;
     }
     footer p { margin: 0; }
+    .ba { display: grid; gap: 0.75rem; margin: 0.4rem 0 0.8rem; }
+    @media (min-width: 640px) { .ba { grid-template-columns: 1fr 1fr; } }
+    .ba > div { border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1rem; }
+    .ba .after { background: var(--soft); border-color: #c5d4c9; }
+    .ba h3 { margin-bottom: 0.4rem; }
   </style>
 </head>
 <body>
@@ -128,6 +133,32 @@
       <h2>Vad guiden löser</h2>
       <p>Många vet inte varför en offert eller ett anbud inte blev jobb. Då är det lätt att gissa att det var priset, och ändra fel sak nästa gång. Andra lägger kvällar på att räkna på förfrågningar som aldrig var värda tiden: jämförelsepriser, kunder utan budget eller jobb utanför kärnan.</p>
       <p>Guiden ger ett enkelt sätt att ta reda på varför det inte blev jobb, och att välja vilka förfrågningar som är värda att räkna på. Inga garantier, och inga löften om mer jobb.</p>
+    </section>
+
+    <section id="exempel">
+      <h2>Samma förlorade offert, före och efter</h2>
+      <p class="note">Påhittat exempel, ingen verklig kund eller firma.</p>
+      <p>En snickare lämnar offert på en altan på 25 m². Kunden svarar inte.</p>
+      <div class="ba">
+        <div>
+          <h3>Före</h3>
+          <ul>
+            <li>Väntar två veckor, hör inget.</li>
+            <li>Gissar att priset var för högt.</li>
+            <li>Sänker priset på nästa altanoffert.</li>
+          </ul>
+        </div>
+        <div class="after">
+          <h3>Efter, med guiden</h3>
+          <ul>
+            <li>Följer upp efter några dagar med en färdig fråga: "Vad fick dig att välja ett annat alternativ?"</li>
+            <li>Kunden svarar att en annan offert tydligt visade vad som ingick: rivning, bortforsling och trappa.</li>
+            <li>Nästa offert skriver ut omfattningen punkt för punkt. Priset ändras inte.</li>
+          </ul>
+        </div>
+      </div>
+      <p>Poängen: ta reda på den verkliga orsaken innan du ändrar något. Ofta är det inte priset. Inga garantier om att det blir jobb.</p>
+      <p><a href="https://emilgranberg.github.io/granskning/#sjalvtest">Gör snabbtestet på 2 minuter</a> eller <a href="#kop">köp guiden från 295 kr</a>.</p>
     </section>
 
     <div class="tiers">
